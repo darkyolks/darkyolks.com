@@ -1,0 +1,41 @@
+.header {
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(10, 10, 10, 0.95);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 var(--spacing-unit);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                var(--hero-bg, url('../images/bg.jpg'));
+    background-size: cover;
+    background-position: center;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.footer {
+    padding: var(--spacing-unit);
+    text-align: center;
+    background-color: var(--accent);
+    margin-top: auto;
+}
