@@ -47,15 +47,15 @@ plugins:
 # paginate_path: "/page/:num/"
 
 # Navigation
-#navigation:
-#  - title: Home
-#    url: /
-#  - title: Write Ups
-#    url: /write-ups
-#  - title: Labs
-#    url: /labs
-#  - title: About Me
-#    url: /about
+navigation:
+  - title: Home
+    url: /
+  - title: Write Ups
+    url: /write-ups
+  - title: Labs
+    url: /labs
+  - title: About Me
+    url: /about
 
 # Exclude from processing.
 # The following items will not be processed, by default.
