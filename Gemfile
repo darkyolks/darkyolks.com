@@ -16,6 +16,7 @@ gem "jekyll-theme-hacker", "~> 0.2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-remote-theme"
 #  gem 'jekyll-paginate'
 #  gem 'jekyll-seo-tag'
 end
