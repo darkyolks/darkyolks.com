@@ -1,3 +1,10 @@
+markdown: kramdown
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-seo-tag
+paginate: 6
+paginate_path: "/page/:num/"
+
 # Navigation
 navigation:
   - title: Home
@@ -8,3 +15,9 @@ navigation:
     url: /labs
   - title: About Me
     url: /about
+
+sass:
+  load_paths:
+    - _sass
+    - yolks-theme/_sass
+  style: compressed

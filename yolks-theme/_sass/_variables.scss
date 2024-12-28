@@ -1,9 +1,11 @@
 :root {
     --dark-bg: #0a0a0a;
+    --darker-bg: #050505;
     --text-primary: #ffffff;
     --text-secondary: #a0a0a0;
     --accent: #3a3a3a;
-    --spacing-unit: 30px;
-    --radius: 10px;
-    --transition: all 0.3s ease;
-}
+    --accent-hover: #4a4a4a;
+    --spacing: 2rem;
+    --container: 1200px;
+    --header-height: 60px;
+  }

@@ -1,0 +1,43 @@
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing);
+    margin: var(--spacing) 0;
+  }
+  
+  .post-card {
+    background: var(--darker-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--accent);
+    transition: transform 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+    }
+    
+    .post-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .post-content {
+      padding: var(--spacing);
+    }
+    
+    .post-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .post-meta {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+    
+    .post-excerpt {
+      color: var(--text-secondary);
+    }
+  }
