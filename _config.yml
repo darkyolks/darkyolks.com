@@ -20,8 +20,7 @@
 
 title: darkyolks
 email: grant@darkyolks.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Thoughts, write ups, and weird little oddities.
+description: Thoughts, write ups, and weird little oddities. # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://darkyolks.com" # the base hostname & protocol for your site, e.g. http://example.com
 social:
@@ -36,10 +35,24 @@ author:
 
 # Build settings
 theme: yolks-theme
+markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+
+paginate: 6
+paginate_path: "/page/:num/"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Write Ups
+    url: /write-ups
+  - title: Labs
+    url: /labs
+  - title: About Me
+    url: /about
 
 # Exclude from processing.
 # The following items will not be processed, by default.
