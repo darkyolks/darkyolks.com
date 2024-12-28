@@ -34,25 +34,28 @@ author:
   avatar: /assets/images/darkyolks-favi.jpg
 
 # Build settings
-theme: yolks-theme
+theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
 markdown: kramdown
 plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
+#  - jekyll-paginate
+#  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-remote-theme
 
-paginate: 6
-paginate_path: "/page/:num/"
+# paginate: 6
+# paginate_path: "/page/:num/"
 
 # Navigation
-navigation:
-  - title: Home
-    url: /
-  - title: Write Ups
-    url: /write-ups
-  - title: Labs
-    url: /labs
-  - title: About Me
-    url: /about
+#navigation:
+#  - title: Home
+#    url: /
+#  - title: Write Ups
+#    url: /write-ups
+#  - title: Labs
+#    url: /labs
+#  - title: About Me
+#    url: /about
 
 # Exclude from processing.
 # The following items will not be processed, by default.
