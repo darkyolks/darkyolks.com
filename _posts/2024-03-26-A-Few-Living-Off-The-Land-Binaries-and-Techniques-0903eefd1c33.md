@@ -18,7 +18,7 @@ Living off the Land (LOTL) Binaries, Windows
 
 #### Living off the Land (LOTL) Binaries, Windows
 
-![](https://cdn-images-1.medium.com/max/800/1*0btGIciM2lFvwZTYlH5t6w.png)
+![](/../darkyolks.com/assets/images/10btGIciM2lFvwZTYlH5t6w.png)
 
 Courtesy of DALL-E, prompt provided by [Grant Wilsey](https://medium.com/u/36c9d68fafd8)
 
@@ -42,11 +42,11 @@ cmd.exe /c net user hacker P@ssw0rd123 /add
 
 In this example, an attacker that already likely has administrator privileges creates a new user account named “darkyolks” with the password “P@ssw0rd123” using the `net user` command executed via `cmd.exe`. This is a simple way yet effective way that adversaries use native features within Windows environments to maintain persistence.
 
-![](https://cdn-images-1.medium.com/max/800/1*3eGihN7zYK51S0HjGHWq1g.png)
+![](/../darkyolks.com/assets/images/13eGihN7zYK51S0HjGHWq1g.png)
 
 Successful user creation via cmd.exe
 
-![](https://cdn-images-1.medium.com/max/800/1*FRUnF4LCq2GAZnM8l55Uwg.png)
+![](/../darkyolks.com/assets/images/1FRUnF4LCq2GAZnM8l55Uwg.png)
 
 Denied user creation due to invalid privileges.
 
@@ -134,7 +134,7 @@ reg add “HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender” /v
 
 This command adds a registry key `DisableAntiSpyware` under `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` and sets its value to `1`, which effectively disables Windows Defender permanently.
 
-![](https://cdn-images-1.medium.com/max/800/1*4Gcm4MXLkloUHAptSBmtWA.png)
+![](/../darkyolks.com/assets/images/14Gcm4MXLkloUHAptSBmtWA.png)
 
 Disabling Windows Defender with reg.exe via command line.
 
