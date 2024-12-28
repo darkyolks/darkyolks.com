@@ -34,6 +34,16 @@ theme: minima
 plugins:
   - jekyll-feed
 
+assets:
+  sources:
+    - _assets/images       # Add custom source directories for images
+    - assets/images
+  compress:
+    png: true               # Enable PNG compression
+    jpg: true               # Enable JPEG compression
+    gifsicle: true          # Enable GIF compression
+  cache: .jekyll-cache      # Use caching to speed up builds
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

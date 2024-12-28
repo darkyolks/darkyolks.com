@@ -42,6 +42,7 @@ cmd.exe /c net user hacker P@ssw0rd123 /add
 
 In this example, an attacker that already likely has administrator privileges creates a new user account named “darkyolks” with the password “P@ssw0rd123” using the `net user` command executed via `cmd.exe`. This is a simple way yet effective way that adversaries use native features within Windows environments to maintain persistence.
 
+![]({% asset 13eGihN7zYK51S0HjGHWq1g.png @path %})
 ![](/assets/images/13eGihN7zYK51S0HjGHWq1g.png)
 
 Successful user creation via cmd.exe
