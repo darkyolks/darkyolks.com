@@ -1,8 +1,8 @@
 ---
-title: "A-Few-Living-Off-The-Land-Binaries-and-Techniques-0903eefd1c33"
+title: "Peeling Back Living Off The Land Binaries and Techniques"
 date: 2024-03-26
 layout: post
-categories: medium
+categories: write-ups
 ---
 
 

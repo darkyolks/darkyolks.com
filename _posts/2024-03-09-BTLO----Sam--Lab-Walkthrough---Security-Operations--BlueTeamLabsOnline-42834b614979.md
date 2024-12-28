@@ -1,8 +1,8 @@
 ---
-title: "BTLO----Sam--Lab-Walkthrough---Security-Operations--BlueTeamLabsOnline-42834b614979"
+title: "BTLO - Sam Lab Walkthrough - Security Operations - BlueTeamLabsOnline"
 date: 2024-03-09
 layout: post
-categories: medium
+categories: labs
 ---
 
 

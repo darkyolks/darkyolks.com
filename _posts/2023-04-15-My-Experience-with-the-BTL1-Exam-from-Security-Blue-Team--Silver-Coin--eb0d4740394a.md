@@ -1,8 +1,8 @@
 ---
-title: "My-Experience-with-the-BTL1-Exam-from-Security-Blue-Team--Silver-Coin--eb0d4740394a"
+title: "My Experience with the BTL1 Exam from Security Blue Team - Silver Coin"
 date: 2023-04-15
 layout: post
-categories: medium
+categories: certifications
 ---
 
 

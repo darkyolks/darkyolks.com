@@ -1,8 +1,8 @@
 ---
-title: "HackTheBox--Intro-to-Blue-Team----One-Thing-Learned-From-All-9-Labs-088862126604"
+title: "HackTheBox - Intro to Blue Team - One Thing Learned From All 9 Labs"
 date: 2024-01-27
 layout: post
-categories: medium
+categories: labs
 ---
 
 

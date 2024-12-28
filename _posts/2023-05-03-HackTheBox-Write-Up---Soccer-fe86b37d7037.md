@@ -1,8 +1,8 @@
 ---
-title: "HackTheBox-Write-Up---Soccer-fe86b37d7037"
+title: "HackTheBox Write Up - Soccer"
 date: 2023-05-03
 layout: post
-categories: medium
+categories: labs
 ---
 
 
