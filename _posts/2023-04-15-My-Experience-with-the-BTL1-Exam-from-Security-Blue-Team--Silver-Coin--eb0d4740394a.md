@@ -5,15 +5,6 @@ layout: post
 categories: certifications
 ---
 
-
-My Experience with the BTL1 Exam from Security Blue Team (Silver Coin)
-======================================================================
-
-
-On 9/24/2022, I had the opportunity to take and pass the BTL1 exam, which is a 24-hour incident response-based scenario. The objective of…
-
----
-
 ### My Experience with the BTL1 Exam from Security Blue Team (Silver Coin)
 
 ![](/assets/images/1YrwOkdmNNSGnEAqTk84yDw.png)
@@ -48,9 +39,5 @@ In conclusion, obtaining the BTL1 certificate was a valuable and educational exp
 
 
 
-By [Grant Wilsey](https://medium.com/@darkyolks) on [April 15, 2023](https://medium.com/p/eb0d4740394a).
-
-[Canonical link](https://medium.com/@darkyolks/my-experience-with-the-btl1-exam-from-security-blue-team-silver-coin-eb0d4740394a)
-
-Exported from [Medium](https://medium.com) on December 27, 2024.
+By [darkyolks](https://darkyolks.com) originally published on April 15, 2023.
 

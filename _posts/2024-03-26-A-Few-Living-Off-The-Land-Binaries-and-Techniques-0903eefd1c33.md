@@ -1,26 +1,15 @@
 ---
-title: "Peeling Back Living Off The Land Binaries and Techniques"
+title: "Exploring Living Off The Land Binaries and Techniques"
 date: 2024-03-26
 layout: post
 categories: write-ups
 ---
 
-
-A Few Living-Off-The-Land Binaries and Techniques
-=================================================
-
-
-Living off the Land (LOTL) Binaries, Windows
-
----
-
-### A Few Living-Off-The-Land Binaries and Techniques
+### Exploring A Few Living-Off-The-Land Binaries and Techniques
 
 #### Living off the Land (LOTL) Binaries, Windows
 
-![](/assets/images/10btGIciM2lFvwZTYlH5t6w.png)
-
-Courtesy of DALL-E, prompt provided by [Grant Wilsey](https://medium.com/u/36c9d68fafd8)
+![Courtesy of DALL-E, prompt provided by Grant Wilsey (darkyolks)](/assets/images/10btGIciM2lFvwZTYlH5t6w.png)
 
 When it comes to avoiding detection and maintaining access to a newly hacked system, attackers can become very resourceful. They will often employ techniques that leverage existing system tools on the system to remain hidden, maintain persistence, escalation privileges and exfiltrate data from the target. One such strategy is known as “Living off the Land” (LOTL), where attackers utilize legitimate binaries already present on the target system to execute malicious activities, making it harder for traditional security solutions to detect their actions. I’m interested in learning more about Living-off-the-land techniques, so in this blog post we’ll explore the concept of LOTL binaries and showcase a few simple examples that exploit native Windows capabilities.
 
@@ -150,9 +139,5 @@ For further research and exploration of LOTL binaries, the [LOLBAS project](http
 
 
 
-By [Grant Wilsey](https://medium.com/@darkyolks) on [March 26, 2024](https://medium.com/p/0903eefd1c33).
-
-[Canonical link](https://medium.com/@darkyolks/a-look-into-lotl-binaries-and-techniques-0903eefd1c33)
-
-Exported from [Medium](https://medium.com) on December 27, 2024.
+By [darkyolks](https://www.darkyolks.com) originally published on March 26, 2024.
 

@@ -5,15 +5,6 @@ layout: post
 categories: labs
 ---
 
-
-HackTheBox ‘Intro to Blue Team’ — One Thing Learned From All 9 Labs
-===================================================================
-
-
-In this video, I go through each lab in the HackTheBox ‘Intro to Blue Team’ track. This track was created by HackTheBox and provides nine…
-
----
-
 ### HackTheBox ‘Intro to Blue Team’ — One Thing Learned From All 9 Labs
 
 In this video, I go through each lab in the HackTheBox ‘Intro to Blue Team’ track. This track was created by HackTheBox and provides nine excellent, beginner friendly DFIR and SOC labs that can be investigated fully offline.
@@ -33,9 +24,6 @@ The labs featured in this Track are:
 9. [Ransom](https://app.hackthebox.com/challenges/166) — Reverse Engineering, ransomware analysis.
 
 
-By [Grant Wilsey](https://medium.com/@darkyolks) on [January 27, 2024](https://medium.com/p/088862126604).
+By [darkyolks](https://darkyolks.com) originally published on January 27, 2024.
 
-[Canonical link](https://medium.com/@darkyolks/hackthebox-intro-to-blue-team-one-thing-learned-from-all-9-labs-088862126604)
-
-Exported from [Medium](https://medium.com) on December 27, 2024.
 

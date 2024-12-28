@@ -5,15 +5,6 @@ layout: post
 categories: labs
 ---
 
-
-HackTheBox Write Up — Soccer
-============================
-
-
-A brief walkthrough of the ‘Soccer’
-
----
-
 ### HackTheBox Write Up — Soccer
 
 #### A walkthrough of the ‘Soccer’ box from HackTheBox
@@ -121,9 +112,5 @@ Using these credentials to establish an SSH connection worked like a charm, so I
 
 
 
-By [Grant Wilsey](https://medium.com/@darkyolks) on [May 3, 2023](https://medium.com/p/fe86b37d7037).
-
-[Canonical link](https://medium.com/@darkyolks/hackthebox-write-up-soccer-fe86b37d7037)
-
-Exported from [Medium](https://medium.com) on December 27, 2024.
+By [darkyolks](https://darkyolks.com) originally published on May 3, 2023.
 
