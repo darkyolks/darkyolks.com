@@ -16,7 +16,7 @@ On 9/24/2022, I had the opportunity to take and pass the BTL1 exam, which is a 2
 
 ### My Experience with the BTL1 Exam from Security Blue Team (Silver Coin)
 
-![](/../darkyolks.com/assets/images/1YrwOkdmNNSGnEAqTk84yDw.png)
+![](https://cdn-images-1.medium.com/max/800/1*YrwOkdmNNSGnEAqTk84yDw.png)
 
 On 9/24/2022, I had the opportunity to take and pass the BTL1 exam, which is a 24-hour incident response-based scenario. The objective of the exam was to identify the source of a security breach by analyzing logs, conducting phishing analysis, mapping the attack using the MITRE ATT&CK Framework, and ultimately determining the responsible party. I’d like to share my journey and insights from the experience.
 

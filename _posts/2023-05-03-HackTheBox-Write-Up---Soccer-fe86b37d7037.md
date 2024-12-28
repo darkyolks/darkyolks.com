@@ -18,7 +18,7 @@ A brief walkthrough of the ‘Soccer’
 
 #### A walkthrough of the ‘Soccer’ box from HackTheBox
 
-![](/../darkyolks.com/assets/images/1jnFpt4i0LUVaVrlqP1E4Gw.png)
+![](https://cdn-images-1.medium.com/max/800/1*jnFpt4i0LUVaVrlqP1E4Gw.png)
 #### Scanning & Enumeration
 
 As usual, the first step is to start with an Nmap scan. This revealed ports 22 (SSH), 80 (HTTP), and 9091.
@@ -27,7 +27,7 @@ Next I navigated to the webpage, which didn’t have a lot of options available 
 
 #### **Directory Busting**
 
-![](/../darkyolks.com/assets/images/1N0jZonUbSbE5ypKpdAI5pA.png)
+![](https://cdn-images-1.medium.com/max/800/1*N0jZonUbSbE5ypKpdAI5pA.png)
 
 `ffuf -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -u http://soccer.htb:80/FUZZ`
 
@@ -41,7 +41,7 @@ Before spending time attempting to brute force, let’s first do some OSINT by d
 
 This pays off and saves us some time as the default admin username and password worked and we’re logged in.
 
-![](/../darkyolks.com/assets/images/1CvlPP484HahwYUCEHd80IA.png)
+![](https://cdn-images-1.medium.com/max/800/1*CvlPP484HahwYUCEHd80IA.png)
 
 Digging through the ‘Tiny File Manager’ web portal, the first thing that stands out to me is the ‘Upload’ section. This is just asking to be abused and can potentially lead to a reverse shell.
 
@@ -80,7 +80,7 @@ python3 -c "import pty;pty.spawn('/bin/bash')"
 
 Checking the user permissions next, we see our user www-data has low privileges.
 
-![](/../darkyolks.com/assets/images/1Oxn6mA14oA-l13zkoxcUiQ.png)
+![](https://cdn-images-1.medium.com/max/800/1*Oxn6mA14oA-l13zkoxcUiQ.png)
 
 With this shell we can enumerate further. Referencing the previous findings on port 80/http, I list out the contents of the /etc/nginx/site-enabled directory using the following command:
 
@@ -104,19 +104,19 @@ Next, I investigate this newly found subdomain further by inspecting the webpage
 
 We’ll need to adjust the parameters for this script. Ensure the “`ws_server`” parameter has the correct URL and the “`data`” contains the “id” parameter as this is what we are using for authentication:
 
-![](/../darkyolks.com/assets/images/1xXN6XCi2hU6M2zAJPIKiwA.png)
+![](https://cdn-images-1.medium.com/max/800/1*xXN6XCi2hU6M2zAJPIKiwA.png)
 
 Following the directions of the author of this script, I used the following sqlmap command. I just adjusted the tags at the end to narrow down the search a bit. This took a very long time, so keep that in mind if you’re following along.
 
-![](/../darkyolks.com/assets/images/15XQszEZOS4oql-8rlTp4ww.png)
+![](https://cdn-images-1.medium.com/max/800/1*5XQszEZOS4oql-8rlTp4ww.png)
 
 After a long wait and a nice coffee break, SQLMap yielded Database credentials for soccer\_db.
 
-![](/../darkyolks.com/assets/images/1UhU4FA7po_4OcbA2bYQadQ.png)
+![](https://cdn-images-1.medium.com/max/800/1*UhU4FA7po_4OcbA2bYQadQ.png)
 
 Using these credentials to establish an SSH connection worked like a charm, so I just navigated to the root folder to obtain the ‘user.txt’ flag.
 
-![](/../darkyolks.com/assets/images/1-_iENcZpdkR5fCBdnlnO5w.png)
+![](https://cdn-images-1.medium.com/max/800/1*-_iENcZpdkR5fCBdnlnO5w.png)
 #### GAME OVER
 
 
