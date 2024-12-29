@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"> <!-- Reference existing theme styles -->
+</head>
+<body>
+  <header>
+    <div class="site-title">
+      <h1><a href="{{ site.baseurl | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+    </div>
+    <nav>
+      <ul class="site-nav">
+        {% for item in site.navigation %}
+          <li>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> and the <a href="https://github.com/pages-themes/hacker">Hacker Theme</a>.</p>
+  </footer>
+</body>
+</html>
