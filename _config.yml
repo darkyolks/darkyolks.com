@@ -36,9 +36,9 @@ author:
 
 # Hero Settings
 hero:
-  title: DARK YOLKS
+  title: DARKYOLKS
   description: Thoughts, write ups, and weird little oddities.
-  image: '/assets/images/hero.jpg' # background image for home page (hero)
+  image: '/assets/images/hero3.jpg' # background image for home page (hero)
   url: "https://darkyolks.com"
 
 
@@ -58,9 +58,9 @@ contact:
 # Other icons can be found at https://ionicons.com/v4/
 social:
 - {icon: "ion-logo-twitter", link: "https://twitter.com/dark_yolks"}
-- {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCzQ2vDjfscqSpXvSHhejJMg"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/@darkyolks"}
 - {icon: "ion-logo-github", link: "https://github.com/darkyolks"}
-- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/sebastianschuetze"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/grant-wilsey/"}
 
 
 #-------------------------------
@@ -113,6 +113,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
+collections:
+  posts:
+    output: true
 # Navigation
 #navigation:
 #  - title: Home

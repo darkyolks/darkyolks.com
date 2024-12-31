@@ -1,0 +1,25 @@
+---
+layout: page
+title: Write Ups
+permalink: /write-ups/
+image: /assets/images/write-ups.jpg
+nav_order: 2
+---
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="container__inner">
+        <div class="row grid">
+          {% assign write_ups_posts = site.posts | where: "category", "write-ups" %}
+          {% if write_ups_posts.size > 0 %}
+            {% for post in write_ups_posts %}
+              {% include article-content.html %}
+            {% endfor %}
+          {% else %}
+            <p>No write-ups available at the moment. Check back soon!</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -2,7 +2,7 @@
 layout: post
 title: "HackTheBox - Intro to Blue Team - One Thing Learned From All 9 Labs"
 date: 2024-01-27
-categories: labs
+category: labs
 image: '/assets/images/HTB-logo.png'
 tags: [labs, educational, guide]
 ---
