@@ -1,8 +1,10 @@
 ---
+layout: post
 title: "Exploring Living Off The Land Binaries and Techniques"
 date: 2024-03-26
-layout: post
 categories: write-ups
+image: '/assets/images/10btGIciM2lFvwZTYlH5t6w.png'
+tags: [write-ups, educational]
 ---
 
 ### Exploring A Few Living-Off-The-Land Binaries and Techniques

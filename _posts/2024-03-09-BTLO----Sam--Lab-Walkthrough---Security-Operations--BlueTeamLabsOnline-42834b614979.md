@@ -1,8 +1,10 @@
 ---
+layout: post
 title: "BTLO - Sam Lab Walkthrough - Security Operations - BlueTeamLabsOnline"
 date: 2024-03-09
-layout: post
 categories: labs
+image: '/assets/images/btlo-sam.jpg'
+tags: [labs, educational, guide]
 ---
 
 ### BTLO — ‘Sam’ Lab Walkthrough — Security Operations, BlueTeamLabsOnline

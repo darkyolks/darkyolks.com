@@ -1,7 +1,7 @@
 ---
+layout: post
 title: "My Experience with the BTL1 Exam from Security Blue Team - Silver Coin"
 date: 2023-04-15
-layout: post
 categories: certifications
 ---
 
