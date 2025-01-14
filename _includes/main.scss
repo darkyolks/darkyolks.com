@@ -101,3 +101,34 @@
 @import '4-layouts/tags-page';
 /* >>>>>>>>>>>>>> :: 4.4-Contact Page <<<<<<<<<<<<<<< */
 @import '4-layouts/contact-page';
+
+.pjpt-badge-container {
+    width: 150px;
+    height: 270px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px; /* Adjust as needed */
+    vertical-align: top; /* Add this line */
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      .badge-text {
+        text-align: center;
+        font-size: 12px;
+        color: #777;
+        margin-top: 5px;
+        p{
+          margin: 0px;
+          padding: 0px;
+        }
+      }
+      img {
+        max-width: 100%;
+        max-height: 60%; // Adjust this for desired image height
+        width: auto;
+        height: auto;
+        margin-bottom: 5px;
+      }
+    }
+  }
