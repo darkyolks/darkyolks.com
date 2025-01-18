@@ -80,10 +80,9 @@ $(document).ready(function() {
               <span class="article__minutes">{words}</span>
             </div>
             <h2 class="article__title"><a href="{url}">{title}</a></h2>
-            <p class="article__excerpt">{description}</p>
             <div class="article__bottom">
               <div class="article__bottom-meta">
-                <span class="article-tags">{tags}</span>
+                <div class="article-tags">{tags}</div>
               </div>
             </div>
           </div>
@@ -92,7 +91,9 @@ $(document).ready(function() {
     `,
     templateMiddleware: function(prop, value) {
       if (prop === 'tags' && Array.isArray(value)) {
-        return value.map(tag => `<a href="/tag/${tag}" class="article__tag">${tag}</a>`).join('');
+        return value.map(tag => 
+          `<a href="/tags#${tag}" class="article__tag">${tag}</a>`
+        ).join(' ');
       }
       return value;
     },
