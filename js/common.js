@@ -64,14 +64,41 @@ $(document).ready(function() {
 
 
   // =====================
-  // Simple Jekyll Search
-  // =====================
+  // Initialize Simple Jekyll Search
   SimpleJekyllSearch({
     searchInput: document.getElementById("js-search-input"),
     resultsContainer: document.getElementById("js-results-container"),
     json: "/search.json",
-    searchResultTemplate: '{article}',
-    noResultsText: '<li class="no-results"><h3>No results found</h3></li>'
+    searchResultTemplate: `
+      <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
+        <div class="article__inner">
+          <a class="article__image" href="{url}">
+            <img src="{image}" alt="{title}">
+          </a>
+          <div class="article__content">
+            <div class="article__meta">
+              <span class="article__minutes">{words}</span>
+            </div>
+            <h2 class="article__title">{title}</h2>
+            <p class="article__excerpt">{description}</p>
+            <div class="article__bottom">
+              <div class="article__bottom-meta">
+                <span class="article-tags">
+                  {tags}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `,
+    templateMiddleware: function(prop, value) {
+      if (prop === 'tags' && Array.isArray(value)) {
+        return value.map(tag => `<a href="/tag/${tag}" class="article__tag">${tag}</a>`).join('');
+      }
+      return value;
+    },
+    noResultsText: '<div class="no-results"><h3>No results found</h3></div>'
   });
 
 
