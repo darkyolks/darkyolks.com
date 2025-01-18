@@ -92,7 +92,7 @@ $(document).ready(function() {
     templateMiddleware: function(prop, value) {
       if (prop === 'tags' && Array.isArray(value)) {
         return value.map(tag => 
-          `<a href="/tags#${tag}" class="article__tag">${tag}</a>`
+          `<a href="/tags/?tag=${tag}" class="article__tag">${tag}</a>`
         ).join(' ');
       }
       return value;

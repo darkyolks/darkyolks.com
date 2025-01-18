@@ -34,3 +34,17 @@
     line-height: 28px;
   }
 }
+
+.tag-section {
+  margin-bottom: 40px;
+  
+  .tag-name {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: $text-color;
+  }
+}
+
+.tag-list {
+  margin-top: 30px;
+}
