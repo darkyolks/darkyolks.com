@@ -5,9 +5,9 @@ layout: null
   {% for post in site.posts %}
     {
       "title": "{{ post.title | escape }}",
-      "url": "{{ site.baseurl }}{{ post.url }}",
+      "url": "{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ post.url }}",
       "date": "{{ post.date | date: '%b %-d, %Y' }}",
-      "image": "{{ post.image | prepend: site.baseurl }}",
+      "image": "{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ post.image }}",
       "description": "{{ post.description | escape }}",
       "tags": {{ post.tags | jsonify }},
       "words": "{% assign words = post.content | number_of_words %}{% if words < 360 %}1 min read{% else %}{{ words | divided_by:180 }} min read{% endif %}"

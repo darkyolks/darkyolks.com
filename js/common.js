@@ -79,13 +79,11 @@ $(document).ready(function() {
             <div class="article__meta">
               <span class="article__minutes">{words}</span>
             </div>
-            <h2 class="article__title">{title}</h2>
+            <h2 class="article__title"><a href="{url}">{title}</a></h2>
             <p class="article__excerpt">{description}</p>
             <div class="article__bottom">
               <div class="article__bottom-meta">
-                <span class="article-tags">
-                  {tags}
-                </span>
+                <span class="article-tags">{tags}</span>
               </div>
             </div>
           </div>
@@ -98,7 +96,8 @@ $(document).ready(function() {
       }
       return value;
     },
-    noResultsText: '<div class="no-results"><h3>No results found</h3></div>'
+    noResultsText: '<div class="no-results"><h3>No results found</h3></div>',
+    fuzzy: false
   });
 
 
