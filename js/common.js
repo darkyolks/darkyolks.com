@@ -68,7 +68,7 @@ $(document).ready(function() {
   SimpleJekyllSearch({
     searchInput: document.getElementById("js-search-input"),
     resultsContainer: document.getElementById("js-results-container"),
-    json: window.location.origin + "/search.json", // Dynamic path resolution
+    json: "/search.json",
     searchResultTemplate: `
       <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
         <div class="article__inner">
@@ -90,8 +90,14 @@ $(document).ready(function() {
         </div>
       </div>
     `,
-    debug: true, // Enable debug mode temporarily
-    noResultsText: '<div class="no-results"><h3>No results found</h3></div>'
+    templateMiddleware: function(prop, value) {
+      if (prop === 'tags' && Array.isArray(value)) {
+        return value.map(tag => `<a href="/tag/${tag}" class="article__tag">${tag}</a>`).join('');
+      }
+      return value;
+    },
+    noResultsText: '<div class="no-results"><h3>No results found</h3></div>',
+    fuzzy: false
   });
 
 
