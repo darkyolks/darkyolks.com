@@ -103,6 +103,9 @@ defaults:
 
 include:
   - _pages
+  - search.json
+  - js/common.js
+  - js/vendors/simple-jekyll-search.min.js
 
 # Tags
 tag_page_dir:         tag
