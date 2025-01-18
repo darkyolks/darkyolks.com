@@ -3,7 +3,7 @@ layout: post
 title: "HackTheBox Write Up - Soccer"
 date: 2023-05-03
 category: labs
-image: '/assets/images/HTB-logo.png'
+image: '/assets/images/HTB-Logo.png'
 tags: [labs, educational, guide]
 ---
 
