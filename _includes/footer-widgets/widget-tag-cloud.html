@@ -5,7 +5,7 @@
     </div>
     <div class="tag__cloud">
       {% for tag in site.tags %}
-        <a href="/tag/{{ tag[0] | downcase | replace: ' ', '-' }}">{{ tag[0] }}</a>
+        <a href="/tag/{{ tag[0] | downcase | replace: ' ', '-' }}/">{{ tag[0] }}</a>
       {% endfor %}
     </div>
   </div>
