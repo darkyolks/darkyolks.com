@@ -22,11 +22,13 @@ Next I navigated to the webpage, which didn’t have a lot of options available 
 
 ![](/assets/images/1N0jZonUbSbE5ypKpdAI5pA.png)
 
-`ffuf -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -u http://soccer.htb:80/FUZZ`
+```
+ffuf -c -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -u http://soccer.htb:80/FUZZ
+```
 
 Since I’m currently studying for the PNPT from TCM Security and the training is fresh in my mind, I’ll be using FFuF for directory enumeration.
 
-The only real result that came back was the subdomain: `http://soccer.htb/tiny` , which results in a login page that can potentially be brute forced.
+The only real result that came back was the subdomain: `http://soccer.htb/tiny`, which results in a login page that can potentially be brute forced.
 
 #### Initial Access
 

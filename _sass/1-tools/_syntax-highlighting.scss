@@ -7,8 +7,8 @@
   color: $white;
   background: $blue-dark;
 
-  .highlighter-rouge & {
-    background: #eef;
+  .highlighter-rouge & { // Rouge, the default syntax highlighter in Jekyll. Code color background.
+    background: #eeeeff2e;
   }
 
   .c     { color: #998; font-style: italic } // Comment
@@ -70,4 +70,16 @@
   .vg    { color: #008080 } // Name.Variable.Global
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
+}
+
+code {
+  color: #4AF626;
+  background: transparent;
+  padding: 1px 4px;
+}
+
+pre {
+  code {
+    color: #4AF626;
+  }
 }
