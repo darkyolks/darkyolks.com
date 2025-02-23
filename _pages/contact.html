@@ -10,7 +10,7 @@ nav_order: 5
   <p class="contact-description">{{site.contact.description}}</p>
   {% endif %}
   <form class="form"
-    action="{% if site.contact.email %}https://formspree.io/{{site.contact.email}}{% else %}#{% endif %}" method="POST">
+    action="{% if site.contact.email %}https://formspree.io/f/xeoopedk{{site.contact.email}}{% else %}#{% endif %}" method="POST">
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-name">Your Name</label>
       <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>

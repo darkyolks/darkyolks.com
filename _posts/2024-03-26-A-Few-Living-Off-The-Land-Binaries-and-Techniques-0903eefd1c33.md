@@ -7,7 +7,7 @@ image: '/assets/images/10btGIciM2lFvwZTYlH5t6w.png'
 tags: [write-ups, educational]
 ---
 
-### Exploring A Few Living-Off-The-Land Binaries and Techniques
+# Exploring A Few Living-Off-The-Land Binaries and Techniques
 
 #### Living off the Land (LOTL) Binaries, Windows
 
