@@ -1,0 +1,45 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository so the workflow has access to your code.
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set Up Ruby
+      # This installs Ruby 3.3.6 and caches your gems via Bundler.
+      - name: Set Up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.6'
+          bundler-cache: true
+
+      # Step 3: Install Dependencies
+      # Installs Jekyll and any plugins (like jekyll-tagging) specified in your Gemfile.
+      - name: Install Dependencies
+        run: bundle install
+
+      # Step 4: Build the Jekyll Site
+      # This runs the Jekyll build command to generate your site into the _site directory.
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build --destination _site
+
+      # Step 5: Deploy to GitHub Pages using the Jekyll Deploy Action
+      # This step uses the dedicated deploy action to push the generated _site folder to the gh-pages branch.
+      - name: Deploy to GitHub Pages
+        uses: jeffreytse/jekyll-deploy-action@v0.6.0
+        with:
+          provider: github
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          jekyll_src: .         # The root of your Jekyll source.
+          jekyll_cfg: _site  # The folder containing your built site.
