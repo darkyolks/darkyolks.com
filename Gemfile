@@ -18,7 +18,6 @@ gem "jekyll", "~> 4.3.4"
 
 group :jekyll_plugins do
   gem "jekyll", "~> 4.3.4"
-  gem "bundler"
   gem "jekyll-paginate"
   gem 'jekyll-tagging'
   gem "jekyll-sitemap"

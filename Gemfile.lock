@@ -79,7 +79,6 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  bundler
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.4)
   jekyll-paginate
