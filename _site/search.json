@@ -1,0 +1,73 @@
+[
+  
+    {
+      "title": "TryHackMe LoFi Write Up - Easy Rating",
+      "url": "/write-ups/2025/02/21/TryHackMe-LoFi-Write-Up/",
+      "date": "Feb 21, 2025",
+      "image": "/assets/images/Labs/lofi-girl-cyber.png",
+      "description": "",
+      "tags": null,
+      "words": "5 min read"
+    },
+  
+    {
+      "title": "Exploring Living Off The Land Binaries and Techniques",
+      "url": "/write-ups/2024/03/26/A-Few-Living-Off-The-Land-Binaries-and-Techniques-0903eefd1c33/",
+      "date": "Mar 26, 2024",
+      "image": "/assets/images/10btGIciM2lFvwZTYlH5t6w.png",
+      "description": "",
+      "tags": null,
+      "words": "6 min read"
+    },
+  
+    {
+      "title": "BTLO - Sam Lab Walkthrough - Security Operations - BlueTeamLabsOnline",
+      "url": "/labs/2024/03/09/BTLO-Sam-Lab-Walkthrough-Security-Operations-BlueTeamLabsOnline-42834b614979/",
+      "date": "Mar 9, 2024",
+      "image": "/assets/images/btlo-sam.jpg",
+      "description": "",
+      "tags": null,
+      "words": "1 min read"
+    },
+  
+    {
+      "title": "HackTheBox - Intro to Blue Team - One Thing Learned From All 9 Labs",
+      "url": "/labs/2024/01/27/HackTheBox-Intro-to-Blue-Team-One-Thing-Learned-From-All-9-Labs-088862126604/",
+      "date": "Jan 27, 2024",
+      "image": "/assets/images/HTB-Logo.png",
+      "description": "",
+      "tags": null,
+      "words": "1 min read"
+    },
+  
+    {
+      "title": "HackTheBox Write Up - Soccer",
+      "url": "/labs/2023/05/03/HackTheBox-Write-Up-Soccer-fe86b37d7037/",
+      "date": "May 3, 2023",
+      "image": "/assets/images/HTB-Logo.png",
+      "description": "",
+      "tags": null,
+      "words": "4 min read"
+    },
+  
+    {
+      "title": "My Experience with the BTL1 Exam from Security Blue Team - Silver Coin",
+      "url": "/certifications/2023/04/15/My-Experience-with-the-BTL1-Exam-from-Security-Blue-Team-Silver-Coin-eb0d4740394a/",
+      "date": "Apr 15, 2023",
+      "image": "/assets/images/btl1.png",
+      "description": "",
+      "tags": null,
+      "words": "2 min read"
+    },
+  
+    {
+      "title": "Acunetix Web Vulnerability Write Up - vulnweb",
+      "url": "/write-ups/2023/04/15/Acunetix-Web-Vulnerability-Write-Up-vulnweb-c33472761913/",
+      "date": "Apr 15, 2023",
+      "image": "/assets/images/red-team.jpg",
+      "description": "",
+      "tags": null,
+      "words": "2 min read"
+    }
+  
+]
