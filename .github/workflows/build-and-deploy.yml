@@ -9,7 +9,6 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       # Step 1: Checkout the repository so the workflow has access to your code.
       - name: Checkout Repository
@@ -25,7 +24,7 @@ jobs:
 
       - name: Install Dependencies
         run: bundle install
-
+        
       - name: Build Jekyll Site
         run: bundle exec jekyll build
   
