@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TryHackMe Extracted Write Up"
-date: 2025-02-21
+date: 2025-12-17
 category: write-ups
 image: '/assets/images/Labs/Extracted-Lab/extracted-cover-image.png'
 tags: [write-ups, labs, educational, blue-team]
