@@ -8,8 +8,6 @@ image: '/assets/images/HTB-Logo.png'
 tags: [labs, educational, guide]
 ---
 
-## HackTheBox ‘Intro to Blue Team’ — One Thing Learned From All 9 Labs
-
 ## One Thing I learned from EVERY 'Intro to Blue Team' HackTheBox Lab!:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">

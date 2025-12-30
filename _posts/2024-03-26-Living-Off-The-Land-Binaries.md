@@ -5,7 +5,7 @@ date: 2024-03-26
 description: "A blog post digging into and exploring living off the land (LOTL) binaries and exploitation techniques."
 category: write-ups
 image: '/assets/images/10btGIciM2lFvwZTYlH5t6w.png'
-tags: [write-ups, educational]
+tags: [educational, red-team]
 ---
 
 # Exploring A Few Living-Off-The-Land Binaries and Techniques

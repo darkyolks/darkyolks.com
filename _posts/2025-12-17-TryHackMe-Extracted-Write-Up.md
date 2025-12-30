@@ -5,7 +5,7 @@ date: 2025-12-17
 description: "A walkthrough of the TryHackMe Extracted room covering network forensics and KeePass credential recovery."
 category: write-ups
 image: '/assets/images/Labs/Extracted-Lab/extracted-cover-image.png'
-tags: [write-ups, labs, educational, blue-team]
+tags: [labs, educational, blue-team]
 ---
 
 # TryHackMe: 'Extracted' – Network Forensics & KeePass Exfiltration Lab
