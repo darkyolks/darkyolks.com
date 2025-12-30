@@ -4,7 +4,7 @@
   </li>
   {% assign sorted_pages = site.pages | sort: "nav_order" %}
   {% for page in sorted_pages %}
-    {% unless page.name == 'tag.html' or page.name == '404.html' %}
+    {% unless page.name == 'tags.html' or page.name == '404.html' %}
       {% if page.title %}
       <li class="nav__item">
         <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>

@@ -19,7 +19,7 @@ ruby "3.3.6"
 group :jekyll_plugins do
   gem "jekyll", "~> 4.3.4"
   gem "jekyll-paginate"
-  gem 'jekyll-tagging'
+#  gem 'jekyll-tagging'
   gem "jekyll-sitemap"
 end
 

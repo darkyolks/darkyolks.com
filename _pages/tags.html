@@ -1,0 +1,21 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+nav_order: 6
+---
+
+<div class="tags-page">
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+    <div class="tag-section" id="{{ tag[0] | slugify }}">
+      <h2 class="tag-title">{{ tag[0] }}</h2>
+      <span class="tag-count">{{ tag[1].size }} post{% if tag[1].size != 1 %}s{% endif %}</span>
+      <div class="row grid">
+        {% for post in tag[1] %}
+          {% include article-content.html %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

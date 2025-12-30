@@ -86,7 +86,7 @@ permalink: pretty
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll/tagging
+#  - jekyll/tagging
 
 kramdown:
   parse_block_html: true
@@ -108,9 +108,9 @@ include:
   - js/vendors/simple-jekyll-search.min.js
 
 # Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+# tag_page_dir:         tag
+# tag_page_layout:      tag_page
+# tag_permalink_style:  pretty
 
 sass:
   sass_dir: _sass
