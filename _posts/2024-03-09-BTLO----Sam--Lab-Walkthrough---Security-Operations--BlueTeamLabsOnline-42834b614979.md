@@ -1,13 +1,19 @@
 ---
 layout: post
-title: "BTLO - Sam Lab Walkthrough - Security Operations - BlueTeamLabsOnline"
+title: "BlueTeamLabsOnline - 'Sam' Lab - Video Walkthrough"
 date: 2024-03-09
-category: labs
+description: "A video walkthrough of the BlueTeamLabsOnline (BTLO) lab called 'Sam'. This lab is Security Operations focused where you get to investigate a compromise on a user's vulnerable workstation."
+category: write-ups
 image: '/assets/images/btlo-sam.jpg'
 tags: [labs, educational, guide]
 ---
 
-### BTLO — ‘Sam’ Lab Walkthrough — Security Operations, BlueTeamLabsOnline
+### BTLO — ‘Sam’ Lab Walkthrough — Security Operations
+
+## Video Walkthrough:
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0qqjSBH9zcA?si=O-6HoHxh3wELR0CX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 The Blue Team Labs Online lab called ‘Sam’ is a medium difficult box focused on Security Operations. This investigation is conducted on Linux and we’ll be diving into Windows event traffic to make sense of what happened on the victim machine. We’re given Sysmon logs (json), network traffic (pcap) and a memory dump (.raw) file to work with. We utilize tools such as Volatility2, Wireshark and the Linux CLI to parse these log files.
 

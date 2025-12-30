@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "TryHackMe LoFi Write Up - Easy Rating"
+title: "TryHackMe 'LoFi' Walkthrough - Easy"
 date: 2025-02-21
+description: "A walkthrough of the TryHackMe lab 'LoFi'. This lab is a penetration test that includes Local File Inclusion and Path Traversal."
 category: write-ups
 image: '/assets/images/Labs/lofi-girl-cyber.png'
 tags: [write-ups, labs, educational]

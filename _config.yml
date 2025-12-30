@@ -23,7 +23,7 @@ logo: '/assets/images/yolkPNG.png'
 email: grant@darkyolks.com
 description: Thoughts, write ups, and weird little oddities.
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://darkyolks.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://darkyolks.com" # the base hostname & protocol for your site, e.g. http://example.com
 # social:
 #  github: darkyolks
 #  linkedin: grant-wilsey

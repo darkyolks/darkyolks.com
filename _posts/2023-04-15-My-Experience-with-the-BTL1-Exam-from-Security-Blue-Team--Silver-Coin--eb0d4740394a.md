@@ -2,7 +2,8 @@
 layout: post
 title: "My Experience with the BTL1 Exam from Security Blue Team - Silver Coin"
 date: 2023-04-15
-category: certifications
+description: "A blog post detailing my experience taking the Blue Team Level 1 (BTL1) exam and obtaining the certification and silver coin."
+category: write-ups
 image: '/assets/images/btl1.png'
 tags: [certification, training, experience]
 ---

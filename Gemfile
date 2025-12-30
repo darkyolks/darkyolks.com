@@ -14,7 +14,7 @@ ruby "3.3.6"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
-gem "jekyll", "~> 4.3.4"
+# gem "jekyll", "~> 4.3.4"
 
 group :jekyll_plugins do
   gem "jekyll", "~> 4.3.4"

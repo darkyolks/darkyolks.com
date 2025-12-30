@@ -2,6 +2,7 @@
 layout: post
 title: "Exploring Living Off The Land Binaries and Techniques"
 date: 2024-03-26
+description: "A blog post digging into and exploring living off the land (LOTL) binaries and exploitation techniques."
 category: write-ups
 image: '/assets/images/10btGIciM2lFvwZTYlH5t6w.png'
 tags: [write-ups, educational]
@@ -9,7 +10,7 @@ tags: [write-ups, educational]
 
 # Exploring A Few Living-Off-The-Land Binaries and Techniques
 
-#### Living off the Land (LOTL) Binaries, Windows
+## Living off the Land (LOTL) Binaries - Windows
 
 ![Courtesy of DALL-E, prompt provided by Grant Wilsey (darkyolks)](/assets/images/10btGIciM2lFvwZTYlH5t6w.png)
 

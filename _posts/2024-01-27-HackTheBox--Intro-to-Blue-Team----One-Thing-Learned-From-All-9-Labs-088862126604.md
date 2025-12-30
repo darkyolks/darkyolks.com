@@ -2,12 +2,19 @@
 layout: post
 title: "HackTheBox - Intro to Blue Team - One Thing Learned From All 9 Labs"
 date: 2024-01-27
-category: labs
+description: "A video showcasing what was learned from completing HackTheBox 'Intro to Blue Team' lab path."
+category: write-ups
 image: '/assets/images/HTB-Logo.png'
 tags: [labs, educational, guide]
 ---
 
-### HackTheBox ‘Intro to Blue Team’ — One Thing Learned From All 9 Labs
+## HackTheBox ‘Intro to Blue Team’ — One Thing Learned From All 9 Labs
+
+## One Thing I learned from EVERY 'Intro to Blue Team' HackTheBox Lab!:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t0pk-5YC_y4?si=3WDYq44-BXBhkVBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 In this video, I go through each lab in the HackTheBox ‘Intro to Blue Team’ track. This track was created by HackTheBox and provides nine excellent, beginner friendly DFIR and SOC labs that can be investigated fully offline.
 

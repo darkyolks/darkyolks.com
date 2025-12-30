@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "HackTheBox Write Up - Soccer"
+title: "HackTheBox - 'Soccer' Walkthrough"
 date: 2023-05-03
-category: labs
+description: "A walkthrough of the HackTheBox lab 'Soccer'. This lab features directory traversal and basic privilege escalation to capture the flag."
+category: write-ups
 image: '/assets/images/HTB-Logo.png'
 tags: [labs, educational, guide]
 ---
