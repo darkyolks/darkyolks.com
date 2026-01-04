@@ -64,6 +64,17 @@ $(document).ready(function() {
 
 
   // =====================
+  // Slugify helper (matches Jekyll's slugify filter)
+  function slugify(text) {
+    return text.toString().toLowerCase()
+      .replace(/\s+/g, '-')        // Replace spaces with -
+      .replace(/[^\w\-]+/g, '')    // Remove all non-word chars
+      .replace(/\-\-+/g, '-')      // Replace multiple - with single -
+      .replace(/^-+/, '')          // Trim - from start of text
+      .replace(/-+$/, '');         // Trim - from end of text
+  }
+
+  // =====================
   // Initialize Simple Jekyll Search
   SimpleJekyllSearch({
     searchInput: document.getElementById("js-search-input"),
@@ -91,8 +102,8 @@ $(document).ready(function() {
     `,
     templateMiddleware: function(prop, value) {
       if (prop === 'tags' && Array.isArray(value)) {
-        return value.map(tag => 
-          `<a href="/tags/?tag=${tag}" class="article__tag">${tag}</a>`
+        return value.map(tag =>
+          `<a href="/tags/#${slugify(tag)}" class="article__tag">${tag}</a>`
         ).join(' ');
       }
       return value;
